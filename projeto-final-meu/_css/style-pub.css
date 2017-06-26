@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+/* Formatação geral */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Heveltica, Arial, sans-serif;
+	color: rgb(255, 255, 255);
+	height: 100%;
+	background-color: #161616;
+	overflow-x: hidden; 
+}
+
+div.section-container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	min-height: inherit;
+	background-size: inherit;
+	background-color: rgba(0, 0, 0, 0.65);
+	z-index: 2;
+}
+/* */
+
+/* Header */
+.video-copo-cerveja {
+	width: 100%;
+	min-height: 500px;
+	overflow: none;
+}
+
+img.logotipo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+ 
+}
+
+/* Formatação Menu */
+
+nav.menu-principal ul {
+	list-style: none;
+	text-transform: uppercase;
+	background-color: #3b3b3b;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 30px 15px;
+	border-bottom: 1px solid black;
+	box-shadow: 0 1px 2px black;
+	z-index: 100;
+}
+
+nav.menu-principal li {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 30px;
+}
+
+nav.menu-principal a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+nav.menu-principal a:hover {
+	color: #0079d9;
+}
+
+nav.menu-principal a {
+	transition: all 1s;
+}
+
+/* */
+
+/* Section O Lugar */
+section#lugar {
+	background-image: url('../_images/bar_interior.jpg');
+	min-height: 500px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: -20px;
+	position: relative;
+	padding-top: 10px;
+	z-index: 1;
+}
+
+h1.titulo-section-lugar {
+	text-align: center;
+	font-size: 30px;
+}
+
+p.paragrafo1-section-lugar {
+	font-size: 18px;
+	text-align: justify;
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+p.paragrafo2-section-lugar {
+	font-size: 18px;
+	text-align: justify;
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;  
+}
+/* */
+
+/*Section Nossos Drinks */
+section#nossos_drinks {
+	background-image: url('../_images/drinks_background.jpg');
+	min-height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top: -20px;
+	padding: 10px;
+	z-index: 1;
+}
+
+h1.titulo-section-nossos-drinks {
+	text-align: center;
+	font-size: 30px;
+}
+
+img.drinks-imagem {
+	max-width: 30%;
+	margin-top: -30px;
+	margin-left: -10px;
+}
+
+p.paragrafo-section-nossos-drinks {
+	font-size: 18px;
+	text-align: justify;
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+/* */
+
+/* Footer */
+footer#endereco {
+	position: relative;
+	padding: 10px;
+}
+
+section.section-footer {
+	display: inline-block;
+	vertical-align: top;
+	width: 32%;
+	min-width: 230px;
+}
+
+footer h1 {
+	font-size: 25px;
+}
+
+footer p {
+	padding-bottom: 20px;
+}
+/* */
